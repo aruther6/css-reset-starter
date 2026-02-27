@@ -138,6 +138,11 @@ h2, h3{
     text-align: center;
 }
 
+h3{
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
 /* Paragraph Styles */
 p{
     max-width: 65ch;
