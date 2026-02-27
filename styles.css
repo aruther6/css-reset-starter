@@ -203,6 +203,10 @@ input{
     height: 2rem;
 }
 
+legend {
+    padding: 0 2px;
+}
+
 /* Fieldset Styles */
 fieldset{
     display: grid;
@@ -281,6 +285,10 @@ textarea{
 #my-submit:hover{
     background-color: var(--coral);
     color: var(--dk-gray);
+}
+
+figure{
+    margin: 1em 40px;
 }
 
 /* Code Styles */
