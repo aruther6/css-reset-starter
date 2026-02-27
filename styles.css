@@ -133,16 +133,19 @@ h2{
     margin: 0.83rem 0;
     font-weight: bold;
 }
-/* Styles for the h2 & h3 tags */
-h2, h3{
-    text-align: center;
-}
 
 h3{
     font-size: 1.17rem;
     font-weight: bold;
     margin: 1rem 0;
 }
+
+/* Styles for the h2 & h3 tags */
+h2, h3{
+    text-align: center;
+}
+
+
 /* Paragraph Styles */
 p{
     max-width: 65ch;
@@ -207,6 +210,8 @@ fieldset{
     gap: 1rem;
     margin: 1rem 0;
     border-color: var(--red);
+    padding: 0.35rem 0.75em .0625em 0.75em;
+    border: 2px groove var(--dk-gray);
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
